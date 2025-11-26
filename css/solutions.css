@@ -14,7 +14,13 @@
     color: white;
 }
 
-/* 3 richiesta */
+/* 3 richiesta + bonus transition */
+.stats-grid {
+    position: relative;
+    bottom: 0;
+    transition: bottom 0.1s, box-shadow 0.5s;
+}
+
 .stats-grid:hover {
     position: relative;
     bottom: 5px;
@@ -49,12 +55,18 @@ input:focus {
    box-shadow: 1px 4px 6px rgba(0, 0, 255, 0.5);
 }
 
-/* 9 richiesta */
-.save-btn:active {
+/* 9 richiesta + bonus transition */
+.save-btn {
+    position: relative;
+    bottom: 0;
+    transition: bottom 0.1s, box-shadow 0.5s;
+}
+
+.save-btn:hover {
     position: relative;
     bottom: 2px;
     background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-    box-shadow: 1px 4px 6px rgba(0, 0, 255, 0.5);
+    box-shadow: 1px 4px 6px rgba(0, 0, 255, 0.3);
 }
 
 /* 10 richiesta */
@@ -73,13 +85,16 @@ input:focus {
     content: "65%";
 }
 
-/* 11-12 richiesta */
-a[href="#home"] {
-    background-color: #34495E;
-    color: blue;
+/* 11-12 richiesta + bonus transition */
+a {
+    transition: 0.5s;
 }
 
 a:hover {
+    background-color: #34495E;
+    color: blue;
+
+}a[href="#home"] {
     background-color: #34495E;
     color: blue;
 }
