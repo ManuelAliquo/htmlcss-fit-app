@@ -34,3 +34,7 @@
     background-color: #F0FFF4;
 }
 
+/* 6 richiesta */
+.exercise-item:nth-child(even)::before {
+    content: "⚡";
+}
