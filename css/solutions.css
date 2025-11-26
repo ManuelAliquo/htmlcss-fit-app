@@ -58,3 +58,17 @@ input:focus {
 }
 
 /* 10 richiesta */
+.progress-fill {
+    color: white;
+    position: relative;
+}
+
+.progress-fill::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    translate: -30% -30%;
+    font-weight: 600;
+    font-size: 12px;
+    content: "65%";
+}
