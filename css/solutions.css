@@ -1,4 +1,13 @@
 .stats-grid:first-child:before {
     content: "🔥";
-    font-size: 36px;
+    font-size: 32px;
+}
+
+.stats-grid:last-child {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+}
+
+.stats-grid:last-child > .stat-number,
+.stats-grid:last-child > .stat-label {
+    color: white;
 }
