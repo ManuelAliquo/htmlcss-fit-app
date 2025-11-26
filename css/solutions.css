@@ -72,3 +72,16 @@ input:focus {
     font-size: 12px;
     content: "65%";
 }
+
+/* 11-12 richiesta */
+a[href="#home"] {
+    background-color: #34495E;
+    color: blue;
+}
+
+a:hover {
+    background-color: #34495E;
+    color: blue;
+}
+
+/* 13 richiesta */
