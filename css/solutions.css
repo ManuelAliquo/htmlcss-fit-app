@@ -85,3 +85,24 @@ a:hover {
 }
 
 /* 13 richiesta */
+.quote-box {
+    position: relative;
+}
+
+.quote-box::before {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    content: "″";
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 48px;
+}
+
+.quote-box::after {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    content: "″";
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 48px;
+}
