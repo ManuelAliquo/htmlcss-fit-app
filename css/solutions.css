@@ -38,3 +38,9 @@
 .exercise-item:nth-child(even)::before {
     content: "⚡";
 }
+
+/* 7 richiesta */
+input:focus {
+   border: 2px solid rgb(0, 0, 255);
+   box-shadow: 2px 3px 5px rgba(0, 0, 255, 0.5);
+}
