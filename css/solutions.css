@@ -11,3 +11,9 @@
 .stats-grid:last-child > .stat-label {
     color: white;
 }
+
+.stats-grid:hover {
+    position: relative;
+    bottom: 5px;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.5);
+}
