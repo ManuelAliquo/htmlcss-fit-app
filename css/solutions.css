@@ -1,8 +1,10 @@
+/* 1 richiesta */
 .stats-grid:first-child:before {
     content: "🔥";
     font-size: 32px;
 }
 
+/* 2 richiesta */
 .stats-grid:last-child {
     background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
 }
@@ -12,8 +14,17 @@
     color: white;
 }
 
+/* 3 richiesta */
 .stats-grid:hover {
     position: relative;
     bottom: 5px;
     box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.5);
 }
+
+/* 4 richiesta */
+.workout-plan:nth-child(3) {
+    border-left: 5px solid #F39C12;
+    background-color: #FFF8BA;
+}
+
+/* 5 richiesta */
